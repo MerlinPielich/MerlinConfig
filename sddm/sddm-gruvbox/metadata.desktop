@@ -1,0 +1,13 @@
+[SddmGreeterTheme]
+Name=Gruvbox
+Description=Gruvbox theme for SDDM
+Type=sddm-theme
+Version=2.1
+Website=https://github.com/he1senbrg/sddm-gruvbox
+MainScript=Main.qml
+ConfigFile=theme.conf
+TranslationsDirectory=translations
+Theme-Id=Gruvbox
+Theme-API=2.0
+License=MIT
+QtVersion=6
