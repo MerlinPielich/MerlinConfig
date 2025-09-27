@@ -14,8 +14,8 @@ require("vimOptions")
 require("lazy").setup("plugins")
 vim.wo.relativenumber = true
 vim.wo.number = true
-
-
+vim.notify = require("notify")
+vim.cmd("TWEnable")
 
 
 

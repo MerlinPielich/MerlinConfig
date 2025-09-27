@@ -1,1 +1,4 @@
-return{ 'ThePrimeagen/harpoon'}
+return{ 'ThePrimeagen/harpoon',
+        opts = {},
+        config = true,
+}
