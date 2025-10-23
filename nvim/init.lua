@@ -57,3 +57,13 @@ vim.api.nvim_create_autocmd("BufWritePre", {
 		require("conform").format()
 	end,
 })
+
+vim.cmd([[  
+  highlight Normal guibg=NONE ctermbg=NONE  
+  highlight NonText guibg=NONE ctermbg=NONE  
+  highlight SignColumn guibg=NONE ctermbg=NONE  
+  highlight EndOfBuffer guibg=NONE ctermbg=NONE  
+]])
+
+
+

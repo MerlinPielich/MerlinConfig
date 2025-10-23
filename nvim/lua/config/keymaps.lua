@@ -15,14 +15,8 @@ vim.keymap.set("n", "<C-H>", "<C-W><Left>", { desc = "Switch to left window" })
 vim.keymap.set("n", "<C-J>", "<C-W><Down>", { desc = "Switch to below window" })
 vim.keymap.set("n", "<C-K>", "<C-W><Up>", { desc = "Switch to above window" })
 vim.keymap.set("n", "<C-L>", "<C-W><Right>", { desc = "Switch to right window" })
--- vim.keymap.set("n", "<leader>wd", "<cmd>q<cr>", { desc = "Remove current window" })
+vim.keymap.set("n", "<leader>wd", "<cmd>q<cr>", { desc = "Remove current window" })
 
--- Explorer
--- vim.keymap.set('n', '<leader>e', '<cmd>Explore<CR>', { desc = 'Open Explorer' })
-
--- Show current filepath
--- vim.keymap.set("n", "<leader>ps", "1<C-g>", { desc = "Show current filepath" })
--- vim.keymap.set("n", "<leader>pc", '<cmd>let @+ = expand("%")<cr>', { desc = "Show current filepath" })
 
 -- Quick actions
 -- vim.keymap.set("n", "dp", "_hvk$di<space><esc>", { desc = "Remove whitespace to last line" })
@@ -36,12 +30,7 @@ vim.keymap.set("n", "<leader>L", "<cmd>:Lazy<cr>", { desc = "Lazy" })
 
 -- Quit
 vim.keymap.set("n", "<leader>qq", "<cmd>wq<cr>", { desc = "Write and Quit" })
-vim.keymap.set("n", "<leader>qa", "<cmd>wqa<cr>", { desc = "Write and Quit" })
+vim.keymap.set("n", "<leader>qa", "<cmd>wqa<cr>", { desc = "Write and Quit All" })
 
--- QWERTY Keymaps
-
--- Window
--- vim.keymap.set("n", "<leader>wh", "<C-W><Left>", { desc = "Switch to left window" })
--- vim.keymap.set("n", "<leader>wj", "<C-W><Down>", { desc = "Switch to below window" })
--- vim.keymap.set("n", "<leader>wk", "<C-W><Up>", { desc = "Switch to above window" })
--- vim.keymap.set("n", "<leader>wl", "<C-W><Right>", { desc = "Switch to right window" })
+-- Write
+vim.keymap.set("n", "<leader>qw", "<cmd>w<cr>", { desc = "Write" })
